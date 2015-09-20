@@ -1,0 +1,49 @@
+body{
+	background: rgba(255,255,255,1);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,204,1,1) 22%, rgba(255,204,1,1) 47%, rgba(246,246,246,1) 97%, rgba(237,237,237,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(22%, rgba(255,204,1,1)), color-stop(47%, rgba(255,204,1,1)), color-stop(97%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,204,1,1) 22%, rgba(255,204,1,1) 47%, rgba(246,246,246,1) 97%, rgba(237,237,237,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,204,1,1) 22%, rgba(255,204,1,1) 47%, rgba(246,246,246,1) 97%, rgba(237,237,237,1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,204,1,1) 22%, rgba(255,204,1,1) 47%, rgba(246,246,246,1) 97%, rgba(237,237,237,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,204,1,1) 22%, rgba(255,204,1,1) 47%, rgba(246,246,246,1) 97%, rgba(237,237,237,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
+	overflow: hidden;
+}
+
+div#container{
+	width: 50em;
+	height: 28em;
+	margin: 50px auto 10px auto;
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 1px 1px 5px #000000;
+}
+
+div#container img#logo{
+	position: relative;
+	top: -2.5em;
+	width: 128px;
+}
+
+div#container div#title{
+	float: right;
+	font-family: sans;
+	font-size: 2em;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px #000000;
+	margin: 1em 3em 1em 0em;
+}
+
+div#container div#tempgauge{
+	position: relative;
+	top: 0.2em;
+	left: -13em;
+	height: 20em;
+}
+
+div#container div#humidity{
+	position: relative;
+	top: -20em;
+	left: 13em;
+	height: 20em;
+}
